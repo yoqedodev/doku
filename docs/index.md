@@ -4,172 +4,112 @@ icon: lucide/rocket
 
 # Willkommen
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
-asdfkjlalsdkjf asfasfa sf sdfa sfasdf asdfasd
+> Eine persönliche Wissensdatenbank rund um Windows Server, Netzwerke, Virtualisierung, Azure und moderne IT-Infrastrukturen.
 
-## Commands
+---
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+## Über dieses Projekt
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+Willkommen auf meiner Dokumentationsseite.
 
-## Examples
+Dieses Projekt dient als zentrale Plattform zur Dokumentation meines Lern- und Praxiswegs im Bereich Systemadministration, Hybrid-Cloud und moderner IT-Infrastrukturen.
 
-### Admonitions
+Der Fokus liegt auf dem Aufbau einer realitätsnahen Laborumgebung, in der Technologien nicht nur theoretisch erlernt, sondern praktisch umgesetzt und getestet werden.
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+Alle Konfigurationen, Installationen, Erfahrungen und Problemlösungen werden hier dokumentiert und kontinuierlich erweitert.
 
-!!! note
+---
 
-    This is a **note** admonition. Use it to provide helpful information.
+## Ziele
 
-!!! warning
+- Aufbau einer professionellen Homelab-Umgebung
+- Auffrischung und Vertiefung von Windows-Server-Kenntnissen
+- Praktische Erfahrungen mit Microsoft Azure sammeln
+- Aufbau einer Hybrid-Cloud-Infrastruktur
+- Dokumentation von Best Practices und Troubleshooting
+- Vorbereitung auf Microsoft-Zertifizierungen
+- Kontinuierliche Weiterbildung im Bereich IT-Infrastruktur und Cloud
 
-    This is a **warning** admonition. Be careful!
+---
 
-### Details
+## Infrastruktur
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+### Virtualisierung
 
-??? info "Click to expand for more info"
+- Proxmox VE
+- Virtuelle Windows-Server
+- Virtuelle Windows-Clients
 
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+### Microsoft Technologien
 
-## Code Blocks
+- Windows Server 2025
+- Active Directory Domain Services
+- DNS
+- DHCP
+- Group Policy
+- Windows Admin Center
+- PowerShell
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
+### Azure
 
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!")  # (1)!
+- Microsoft Azure
+- Microsoft Entra ID
+- Azure Arc
+- Azure Backup
+- Azure Monitor
+- Azure Update Manager
 
+### Netzwerk
 
-greet("Python")
-```
+- VLANs
+- Routing
+- Firewall-Konzepte
+- Netzwerksegmentierung
+- Infrastruktur-Design
 
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
+---
 
-    Code annotations allow to attach notes to lines of code.
+## Dokumentationsbereiche
 
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
+### Homelab
 
-## Content tabs
+Dokumentation der Hardware, Virtualisierung und Netzwerkstruktur.
 
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
+### Windows Server
 
-=== "Python"
+Installation, Konfiguration und Verwaltung von Windows-Server-Systemen.
 
-    ``` python
-    print("Hello from Python!")
-    ```
+### Active Directory
 
-=== "Rust"
+Benutzerverwaltung, Gruppenrichtlinien, OU-Strukturen und Identitätsmanagement.
 
-    ``` rs
-    println!("Hello from Rust!");
-    ```
+### Azure
 
-## Diagrams
+Cloud-Dienste, Hybrid-Cloud-Szenarien und Azure-Integrationen.
 
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
+### Netzwerk
 
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
+Netzwerkdesign, VLANs, DNS, DHCP und Sicherheitskonzepte.
 
-## Footnotes
+### Zertifizierungen
 
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
+Lernnotizen, Übungen und Vorbereitungen für Microsoft-Zertifizierungen.
 
-Here's a sentence with a footnote.[^1]
+---
 
-Hover it, to see a tooltip.
+## Zertifizierungs-Roadmap
 
-[^1]: This is the footnote.
+Aktuell konzentriert sich dieses Projekt auf folgende Zertifizierungen:
 
+- AZ-900 – Azure Fundamentals
+- AZ-104 – Azure Administrator
+- AZ-802 – Windows Server Administrator Associate
+- SC-900 – Security, Compliance and Identity Fundamentals
 
-## Formatting
+---
 
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
+## Philosophie
 
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
+Technologie lernt man nicht durch Lesen allein.
 
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+Man lernt sie durch Plan
