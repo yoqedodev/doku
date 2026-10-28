@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://www.example.com/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/notes/backup/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/notes/mdbefehle/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/projects/hetzner/architektur/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/projects/hetzner/hardware/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/projects/hetzner/uebersicht/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/projects/hetzner/ziel/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/zertifikationen/az-802/az-802/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/zertifikationen/az-900/az-900/</loc>
+      </url>
+</urlset>
